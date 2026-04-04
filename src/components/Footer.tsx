@@ -11,11 +11,11 @@ const Footer = () => {
         <div>
           <div className="flex items-center gap-2 mb-3">
             <img
-              src="https://jknnhftxmlrqrojihufl.supabase.co/storage/v1/object/public/fleet-images/cmexp-removebg-preview.png"
+              src="https://jknnhftxmlrqrojihufl.supabase.co/storage/v1/object/public/fleet-images/Hino_Dutro_with_Mauritian_flag_design-removebg-preview.png"
               alt="Camion Express Logo"
               className="h-12 w-12 object-contain"
             />
-            <span className="font-display text-xl text-foreground">CAMION<span className="text-primary">EXPRESS</span></span>
+            <span className="font-display text-xl text-foreground">CAMION<span className="text-primary"> EXPRESS</span></span>
           </div>
           <p className="text-sm text-muted-foreground italic mb-2">Nou livré ou materiaux dan ler fami.</p>
           <p className="text-sm text-muted-foreground">{t("footer.subtitle")}</p>
@@ -35,7 +35,7 @@ const Footer = () => {
           <h4 className="font-display text-lg mb-3 text-foreground">{t("footer.contactInfo")}</h4>
           <div className="text-sm text-muted-foreground space-y-1">
             <p>📞 +230 5851 9491</p>
-            <p>📧 info@camionexpress.mu</p>
+            <p>📧 camionexpressmru@gmail.com</p>
             <p>📍 Mahebourg, Mauritius</p>
           </div>
         </div>

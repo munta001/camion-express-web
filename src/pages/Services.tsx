@@ -24,16 +24,16 @@ const Services = () => {
       features: [t("services.sandGravel"), t("services.cementBags"), t("services.steelRebar"), t("services.bricksBlocks")],
     },
     {
-      icon: HardHat,
-      title: t("services.projectLogistics"),
-      desc: t("services.projectLogisticsDesc"),
-      features: [t("services.multiDrop"), t("services.scheduledRuns"), t("services.fleetCoordination"), t("services.siteTransfers")],
-    },
-    {
       icon: Package,
       title: t("services.generalHaulage"),
       desc: t("services.generalHaulageDesc"),
       features: [t("services.heavyEquipment"), t("services.machineryTransport"), t("services.bulkGoods"), t("services.islandCoverage")],
+    },
+        {
+      icon: HardHat,
+      title: t("services.projectLogistics"),
+      desc: t("services.projectLogisticsDesc"),
+      features: [t("services.multiDrop"), t("services.scheduledRuns"), t("services.fleetCoordination"), t("services.siteTransfers")],
     },
   ];
 
@@ -73,6 +73,12 @@ const Services = () => {
             ))}
           </div>
 
+          <div className="mt-16 text-center">
+            <Link to="/quotation" className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-md text-lg hover:opacity-90 transition-opacity">
+              {t("nav.quotation")} <ArrowRight className="h-5 w-5" />
+            </Link>
+          </div>
+
           {/* Coming Soon Section */}
           <div className="mt-20">
             <div className="text-center mb-12">
@@ -99,11 +105,6 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="mt-16 text-center">
-            <Link to="/quotation" className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-md text-lg hover:opacity-90 transition-opacity">
-              {t("nav.quotation")} <ArrowRight className="h-5 w-5" />
-            </Link>
-          </div>
         </div>
       </section>
     </Layout>

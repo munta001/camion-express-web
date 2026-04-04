@@ -27,13 +27,13 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-2">
             
             <img
-              src="https://jknnhftxmlrqrojihufl.supabase.co/storage/v1/object/public/fleet-images/cmexp-removebg-preview.png"
+              src="https://jknnhftxmlrqrojihufl.supabase.co/storage/v1/object/public/fleet-images/Hino_Dutro_with_Mauritian_flag_design-removebg-preview.png"
               alt="Camion Express Logo"
               className="h-12 w-12 object-contain"
             />
 
             <span className="font-display text-2xl tracking-wider text-foreground">
-              CAMION<span className="text-primary">EXPRESS</span>
+              CAMION<span className="text-primary"> EXPRESS</span>
             </span>
 
           </Link>

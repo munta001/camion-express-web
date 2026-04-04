@@ -82,7 +82,7 @@ const translations = {
   // Fleet
   "fleet.title": { cr: "NOU", en: "OUR", fr: "NOS" },
   "fleet.titleHighlight": { cr: "CAMION", en: "LORRY", fr: "CAMIONS" },
-  "fleet.subtitle": { cr: "Nou bann camion bien antreteni pare pou tou travay transpor konstriksyon dan Moris.", en: "Our well-maintained lorries ready to handle any construction haulage job across Mauritius.", fr: "Nos camions bien entretenus prêts pour tout travail de transport de construction à Maurice." },
+  "fleet.subtitle": { cr: "Nou bann camion bien antreteni pare pou tou livraizon dan Moris.", en: "Our well-maintained lorries ready to handle deliveries across Mauritius.", fr: "Nos camions bien entretenus prêts pour tout livraison à Maurice." },
   "fleet.noVehicles": { cr: "Pena veyikil disponib pou lemoman.", en: "No vehicles available at the moment.", fr: "Aucun véhicule disponible pour le moment." },
   "fleet.capacity": { cr: "Kapasite", en: "Capacity", fr: "Capacité" },
   "fleet.body": { cr: "Kor", en: "Body", fr: "Carrosserie" },
@@ -117,7 +117,7 @@ const translations = {
   // Quotation
   "quotation.title": { cr: "DEMANN", en: "REQUEST", fr: "DEMANDE DE" },
   "quotation.titleHighlight": { cr: "KOTASYON", en: "QUOTATION", fr: "DEVIS" },
-  "quotation.subtitle": { cr: "Ranpli detay anba la ek nou pou zer enn camion pou ou.", en: "Fill in the details below and we'll arrange a camion for you.", fr: "Remplissez les détails ci-dessous et nous organiserons un camion pour vous." },
+  "quotation.subtitle": { cr: "Ranpli detay anba la ek nou pou zer enn camion pou ou.", en: "Fill in the details below and we'll arrange a lorry for your delivery.", fr: "Remplissez les détails ci-dessous et nous organiserons un camion pour vous." },
   "quotation.fullName": { cr: "Non Konplet *", en: "Full Name *", fr: "Nom Complet *" },
   "quotation.companyName": { cr: "Non Konpagni", en: "Company Name", fr: "Nom de l'Entreprise" },
   "quotation.email": { cr: "Limeil *", en: "Email *", fr: "Email *" },
@@ -247,6 +247,76 @@ const translations = {
   "adminDash.filterRecent": { cr: "Resan", en: "Recent", fr: "Récent" },
   "adminDash.filterDate": { cr: "Filtre par dat", en: "Filter by date", fr: "Filtrer par date" },
   "adminDash.clearFilters": { cr: "Efas filtr", en: "Clear filters", fr: "Effacer les filtres" },
+
+  "home.aboutUs": { cr: "A PROPO", en: "ABOUT", fr: "À PROPOS" },
+  "home.aboutHighlight": { cr: "NOU", en: "US", fr: "NOUS" },
+
+  "home.aboutDesc": {
+    cr: "Camion Express enn platform transport ek livrezon ki krwar dan li a Moris, spesialize dan livrezon materyo konstriksion kouma prodwi basalt, blok beton ek keksoz quincaillerie. Nou osi ofer servis demenazman, transport deche ek lezot livrezon, avek enn servis vit, fiable ek efikas, avek plis ki 25 an lexperyans.",
+    en: "Camion Express is a trusted transport and haulage platform in Mauritius, specializing in the delivery of construction materials such as basalt products, concrete blocks, and hardware supplies. We also provide moving services, waste removal, and general deliveries, ensuring fast, reliable, and efficient service backed by over 25 years of experience.",
+    fr: "Camion Express est une plateforme de transport et de logistique de confiance à Maurice, spécialisée dans la livraison de matériaux de construction tels que les produits basaltiques, les blocs de béton et les fournitures de quincaillerie. Nous proposons également des services de déménagement, d’évacuation de déchets et de livraisons diverses, avec un service rapide, fiable et efficace, soutenu par plus de 25 ans d’expérience."
+  },
+
+  "home.managerName": { cr: "Muntasir Buhora", en: "Muntasir Buhora", fr: "Muntasir Buhora" },
+
+  "home.managerRole": {
+    cr: "Manazer",
+    en: "Manager",
+    fr: "Manager"
+  },
+
+    "home.managerContact": {
+    cr: "+230 5851 9491",
+    en: "+230 5851 9491",
+    fr: "+230 5851 9491"
+  },
+
+  "home.managerBio": {
+    cr: "Avek boukou lexperyans dan transport, li asire ki tou livrezon fer dan sekirite ek a ler.",
+    en: "With years of experience in logistics and transport, he ensures every delivery is handled safely and on time.",
+    fr: "Avec plusieurs années d'expérience en logistique, il veille à ce que chaque livraison soit effectuée en toute sécurité et à temps."
+  },
+
+  "home.experience": { cr: "Lexperyans", en: "Experience", fr: "Expérience" },
+  "home.specialty": { cr: "Spesyalite", en: "Specialty", fr: "Spécialité" },
+
+  "home.managerExperience": {
+    cr: "10+ an dan transport",
+    en: "10+ years in transport & logistics",
+    fr: "Plus de 10 ans en transport et logistique"
+  },
+
+  "home.managerSpecialty": {
+    cr: "Zestion flot ek operasyon",
+    en: "Fleet management & operations",
+    fr: "Gestion de flotte et opérations"
+  },
+
+  "home.meetManager": {
+  cr: "Rankontre Nou Manazer",
+  en: "Meet Our Manager",
+  fr: "Rencontrez notre responsable"
+  },
+
+  "home": {
+    "managerName": { "cr": "John Doe", "en": "John Doe", "fr": "John Doe" },
+    "managerRole": { "cr": "Manazer Operasyon", "en": "Operations Manager", "fr": "Responsable des opérations" },
+    "managerBio": { "cr": "Li jere operasyon yo...", "en": "He oversees operations...", "fr": "Il supervise les opérations..." },
+    "managerExperience": { "cr": "10 an", "en": "10 years", "fr": "10 ans" },
+    "managerSpecialty": { "cr": "Lojistik", "en": "Logistics", "fr": "Logistique" },
+
+    "manager2Name": { "cr": "Jane Smith", "en": "Jane Smith", "fr": "Jane Smith" },
+    "manager2Role": { "cr": "Manazer Flòt", "en": "Fleet Manager", "fr": "Responsable de flotte" },
+    "manager2Bio": { "cr": "Li jere flòt la...", "en": "She manages the fleet...", "fr": "Elle gère la flotte..." },
+    "manager2Experience": { "cr": "8 an", "en": "8 years", "fr": "8 ans" },
+    "manager2Specialty": { "cr": "Transport & Flòt", "en": "Transport & Fleet", "fr": "Transport & flotte" },
+
+    "manager3Name": { "cr": "Ali Kumar", "en": "Ali Kumar", "fr": "Ali Kumar" },
+    "manager3Role": { "cr": "Manazer Lojistik", "en": "Logistics Manager", "fr": "Responsable logistique" },
+    "manager3Bio": { "cr": "Li jere tout lojistik...", "en": "He oversees all logistics...", "fr": "Il supervise toute la logistique..." },
+    "manager3Experience": { "cr": "12 an", "en": "12 years", "fr": "12 ans" },
+    "manager3Specialty": { "cr": "Sistèm lojistik", "en": "Logistics Systems", "fr": "Systèmes logistiques" }
+  },
 
   // Footer
   "footer.tagline": { cr: "Nou livré ou materiaux dan ler fami.", en: "We deliver your materials on time.", fr: "Nous livrons vos matériaux à temps." },

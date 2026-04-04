@@ -7,6 +7,7 @@ import LorryImageCarousel from "@/components/LorryImageCarousel";
 import heroImage from "@/assets/hero-truck.jpg";
 import { useLanguage } from "@/hooks/useLanguage";
 import { supabase } from "@/integrations/supabase/client";
+import managerImage from "@/assets/mun.png"; // add your image
 
 interface FleetVehicle {
   id: string;
@@ -229,6 +230,88 @@ const Index = () => {
             <Link to="/fleet" className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-border text-foreground font-semibold rounded-md text-lg hover:bg-secondary transition-colors">
               {t("home.viewFleet")}
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* About Us */}
+      <section className="py-20 bg-secondary">
+        <div className="container">
+          <div className="grid lg:grid-cols-2 gap-10 items-center">
+            
+            {/* Content */}
+            <div className="order-1 lg:order-2">
+              <h2 className="font-display text-4xl md:text-5xl text-foreground mb-4">
+                {t("home.aboutUs")}{" "}
+                <span className="text-primary">{t("home.aboutHighlight")}</span>
+              </h2>
+
+              <p className="text-muted-foreground mb-6">
+                {t("home.aboutDesc")}
+              </p>
+
+              {/* Image (shows BELOW title on mobile) */}
+              <div className="bg-card border border-border rounded-lg overflow-hidden shadow-lg mb-6 lg:hidden">
+                <div className="h-64 overflow-hidden">
+                  <img
+                    src={managerImage}
+                    alt="Muntasir Buhora - Manager at Camion Express"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-4 text-center border-t border-border">
+                  <h3 className="font-display text-xl text-foreground">
+                    {t("home.managerName")}
+                  </h3>
+                  <p className="text-primary text-sm font-semibold">
+                    {t("home.managerRole")}
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-card border border-border rounded-lg p-6 shadow-sm">
+                <h3 className="font-display text-2xl text-foreground mb-3">
+                  {t("home.meetManager")}
+                </h3>
+
+                <p className="text-muted-foreground mb-4">
+                  {t("home.managerBio")}
+                </p>
+
+                <div className="space-y-2 text-sm text-muted-foreground">
+                  <p>
+                    <strong>{t("home.experience")}:</strong>{" "}
+                    {t("home.managerExperience")}
+                  </p>
+                  <p>
+                    <strong>{t("home.specialty")}:</strong>{" "}
+                    {t("home.managerSpecialty")}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Image (desktop only) */}
+            <div className="hidden lg:block order-2 lg:order-1">
+              <div className="bg-card border border-border rounded-lg overflow-hidden shadow-lg">
+                <div className="h-[400px] overflow-hidden">
+                  <img
+                    src={managerImage}
+                    alt="John Doe - Operations Manager at Camion Express"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-4 text-center border-t border-border">
+                  <h3 className="font-display text-xl text-foreground">
+                    {t("home.managerName")}
+                  </h3>
+                  <p className="text-primary text-sm font-semibold">
+                    {t("home.managerRole")}
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
