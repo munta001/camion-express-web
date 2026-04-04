@@ -260,7 +260,7 @@ const translations = {
   "home.managerName": { cr: "Muntasir Buhora", en: "Muntasir Buhora", fr: "Muntasir Buhora" },
 
   "home.managerRole": {
-    cr: "Manazer",
+    cr: "Manager",
     en: "Manager",
     fr: "Manager"
   },
@@ -281,9 +281,9 @@ const translations = {
   "home.specialty": { cr: "Spesyalite", en: "Specialty", fr: "Spécialité" },
 
   "home.managerExperience": {
-    cr: "10+ an dan transport",
-    en: "10+ years in transport & logistics",
-    fr: "Plus de 10 ans en transport et logistique"
+    cr: "5+ an dan transport",
+    en: "5+ years in transport & logistics",
+    fr: "Plus de 5 ans en transport et logistique"
   },
 
   "home.managerSpecialty": {
@@ -302,7 +302,7 @@ const translations = {
     "managerName": { "cr": "John Doe", "en": "John Doe", "fr": "John Doe" },
     "managerRole": { "cr": "Manazer Operasyon", "en": "Operations Manager", "fr": "Responsable des opérations" },
     "managerBio": { "cr": "Li jere operasyon yo...", "en": "He oversees operations...", "fr": "Il supervise les opérations..." },
-    "managerExperience": { "cr": "10 an", "en": "10 years", "fr": "10 ans" },
+    "managerExperience": { "cr": "5+ an", "en": "5+ years", "fr": "5+ ans" },
     "managerSpecialty": { "cr": "Lojistik", "en": "Logistics", "fr": "Logistique" },
 
     "manager2Name": { "cr": "Jane Smith", "en": "Jane Smith", "fr": "Jane Smith" },
