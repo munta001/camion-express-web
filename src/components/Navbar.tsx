@@ -27,7 +27,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-2">
             
             <img
-              src="https://jknnhftxmlrqrojihufl.supabase.co/storage/v1/object/public/fleet-images/Hino_Dutro_with_Mauritian_flag_design-removebg-preview.png"
+              src="https://dsjanwtkkivnudgfdvii.supabase.co/storage/v1/object/sign/Camion%20Express/Hino_Dutro_with_Mauritian_flag_design-removebg-preview.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83YWFhOTllZS1lMmEzLTQ1NTctYjFjOC01OWNlNzk5YmY4M2QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJDYW1pb24gRXhwcmVzcy9IaW5vX0R1dHJvX3dpdGhfTWF1cml0aWFuX2ZsYWdfZGVzaWduLXJlbW92ZWJnLXByZXZpZXcucG5nIiwiaWF0IjoxNzc3NzkzNTExLCJleHAiOjE5MzU0NzM1MTF9.zjj21UJoVOTmhEWVTwm0HrUERvo8r-JxxUbCaPIAqmc"
               alt="Camion Express Logo"
               className="h-12 w-12 object-contain"
             />
