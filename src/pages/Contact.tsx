@@ -52,7 +52,7 @@ const sendEmail = (e: React.FormEvent) => {
       <section className="py-20">
         <div className="container">
           <h1 className="font-display text-5xl md:text-6xl text-foreground mb-2 flex items-center gap-3">
-            <img src="https://jknnhftxmlrqrojihufl.supabase.co/storage/v1/object/public/fleet-images/Hino_Dutro_with_Mauritian_flag_design-removebg-preview.png" alt="contact" className="w-20 h-20 md:w-20 md:h-20" />
+            <img src="https://dsjanwtkkivnudgfdvii.supabase.co/storage/v1/object/sign/Camion%20Express/Hino_Dutro_with_Mauritian_flag_design-removebg-preview.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83YWFhOTllZS1lMmEzLTQ1NTctYjFjOC01OWNlNzk5YmY4M2QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJDYW1pb24gRXhwcmVzcy9IaW5vX0R1dHJvX3dpdGhfTWF1cml0aWFuX2ZsYWdfZGVzaWduLXJlbW92ZWJnLXByZXZpZXcucG5nIiwiaWF0IjoxNzc3NzkzNTExLCJleHAiOjE5MzU0NzM1MTF9.zjj21UJoVOTmhEWVTwm0HrUERvo8r-JxxUbCaPIAqmc" alt="contact" className="w-20 h-20 md:w-20 md:h-20" />
             <span>
               {t("contact.title")}{" "}
               <span className="text-primary">{t("contact.titleHighlight")}</span>
